@@ -1,0 +1,103 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+html {
+  font-family: Campton, Montserrat;
+  color: white;
+}
+
+h2 {
+  margin-bottom: 16px;
+}
+
+h3 {
+  margin-bottom: 16px;
+}
+
+p {
+  margin-bottom: 16px;
+}
+
+a {
+  text-decoration: underline;
+  color: white;
+}
+
+.case-studies-section {
+  display: flex;
+  flex-direction: column;
+  background-color: #303030;
+  min-height: 500px;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 80px;
+}
+
+@media only screen and (max-width: 570px) {
+
+  .case-studies-section {
+    padding: 80px 40px;
+  }
+
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  flex-wrap: wrap;
+}
+
+.text-box {
+  max-width: 384px;
+  margin: 14px;
+  align-self: flex-start;
+}
+
+.case-card {
+  display: flex;
+  flex-direction: column;
+  min-height: 50px;
+  width: 384px;
+  max-width: 384px;
+  box-shadow: 0px 4px 40px rgb(0 0 0 / 35%);
+  margin: 14px;
+  transition-property: box-shadow;
+  transition-duration: 0.5s;
+}
+
+.case-card:hover {
+  box-shadow: 0px 4px 40px rgb(0 0 0 / 75%);
+}
+
+
+.card-logo-section {
+  padding: 28px;
+  border-bottom: 1px solid orange;
+}
+
+.card-text-scetion {
+  padding: 0px 28px 28px 28px;
+}
+
+.card-label {
+  padding: 10px 20px 5px 20px;
+  border-radius: 20px;
+  width: max-content;;
+  height: 22px;
+  align-self: flex-end;
+  position: relative;
+  top: -20px;
+  right: 18px;
+}
+
+
+.orange {
+  background-color: orange;
+}
+
+.blue {
+  background-color: blue;
+}
